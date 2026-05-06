@@ -5,9 +5,9 @@
 
 安装 uv;
 
-https://github.com/astral-sh/uv
+     https://github.com/astral-sh/uv
 
-二.在 MoBu里运行接收端脚本
+二.在Houdini里运行接收端脚本
 
 在 Houdini 的 Python 控制台执行下面脚本，把receiver_path改成本机houdini_receiver_template.py的路径;
 
@@ -25,4 +25,4 @@ https://github.com/astral-sh/uv
 
 三.启用MCP并检验
 
-在 Claude，Cursor，其他AI编程客户端里启用houdini_mcp后，在聊天栏调用 houdini_health确认连通。
+在 Claude，Cursor或其他AI编程客户端里安装并启用houdini_mcp后，在聊天栏调用 houdini_health确认连通。
